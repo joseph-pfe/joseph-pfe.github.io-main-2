@@ -1,0 +1,49 @@
+* {
+
+    outline: 1px solid black;
+}
+
+#blah {
+
+    align-items: center;
+}
+
+#main-container {
+
+    width: 800px;
+    height: 100px;
+    padding: 0px;
+    background-color: rgb(152, 152, 152);
+    display: flex; /* This rule activates flex layout for a container */ 
+    flex-direction: row; /* determines the direction of the content flow */ 
+    justify-content: flex-start; /* align items based on the main axis */
+    align-items: flex-start; /* align items based on the main axis */
+    gap: 0px; /* Only available for flex and grid mode */
+    max-width: 800;
+    max-height: 800;
+
+    overflow-x: hidden;
+    overflow-y: visible;
+
+}
+
+#chess-board {
+
+    background-color: bisque;
+    padding: 0px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-start;
+
+}
+
+#chess-board div {
+
+
+}

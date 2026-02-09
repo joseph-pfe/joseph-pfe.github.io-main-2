@@ -1,0 +1,142 @@
+/* #ssn {
+
+    color: red;
+}
+
+#statusResult {
+
+    color: blue;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+} */
+
+/* * {
+
+    outline: 1px solid magenta
+} */
+
+.western {
+
+font-family: "westsac", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.futuristic {
+
+font-family: "stop-mn", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.japanese {
+
+font-family: "shogun", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.technical {
+
+font-family: "pt-mono", monospace;
+font-weight: 700;
+font-style: normal;
+}
+
+.scary {
+
+font-family: "cc-meltdown", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.barbie {
+
+font-family: "professor-minty", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.hero {
+
+font-family: "amboy-black", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+body {
+
+    font-size: 18pt;
+}
+
+
+.blue {
+
+    color: blue;
+}
+
+.red {
+
+    color: red;
+}
+
+.pink {
+
+    color: rgb(183, 110, 122);
+}
+
+.orange {
+
+    color: rgb(134, 87, 0);
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.italic {
+
+    font-style: italic;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.lightShade {
+
+    /* background-color: lightgray; */
+
+}
+
+.darkShade {
+
+    /* background-color: darkgray; */
+
+}
+
+p.shaded {
+
+    background-color: rgb(143, 143, 172);
+     max-width: 900px;     
+    margin: 30px auto;    
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2.shaded {
+
+    background-color: rgb(190, 192, 211);
+     max-width: 900px;     
+    margin: 30px auto;    
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1#pageTitle {
+
+    color: rgb(0, 18, 180);
+}

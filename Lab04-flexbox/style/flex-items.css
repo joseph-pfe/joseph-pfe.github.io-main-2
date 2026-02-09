@@ -1,0 +1,70 @@
+* {
+
+    outline: 2px solid magenta;
+}
+
+:root {
+
+    font-size: 20px;
+}
+
+#parent {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 10px;
+
+}
+
+#parent div {
+
+    color: white;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nyc {
+
+    order: 1;
+    background-color: rgb(130, 130, 130);
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 700px;
+}
+
+.chi {
+
+    order: 4;
+    background-color: rgb(92, 92, 169);
+    flex-grow: 1;
+}
+
+.lax {
+
+    order: 2;
+    background-color: chocolate;
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+.rio {
+
+    order: 3;
+    background-color: rgb(0, 139, 60);
+    flex-grow: 1;
+}
+
+.lax div {
+
+    background-color: coral;
+    width: 100%;
+
+}
