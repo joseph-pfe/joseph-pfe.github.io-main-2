@@ -1,0 +1,124 @@
+:root {
+
+    font-size: 18pt;
+}
+
+* {
+
+    outline: 2px solid magenta;
+}
+
+
+body {
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* i will remove this later */
+}
+
+header, nav, main, footer {
+
+}
+
+header {
+
+    background-color: blueviolet;
+    height: 200px;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+
+    background-color: rgb(255, 251, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+    text-decoration: color purple; 
+}
+
+nav a:link {
+
+    color: black;
+
+}
+
+nav a:hover {
+
+        background-color: aliceblue;
+        color: darkmagenta;
+        transform: rotate(10deg) scale(1.1);
+
+}
+
+
+main {
+
+    background-color: rgb(43, 134, 226);
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+aside {
+
+    background-color: rgb(125, 125, 255);
+    width: 400px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+aside a {
+
+    color: rgb(214, 219, 223);
+    text-decoration: none;
+
+}
+
+aside a:hover {
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+
+article {
+
+    background-color: rgb(43, 226, 76);
+    flex-grow: 4;
+
+}
+
+article:hover {
+    background-color: greenyellow;
+}
+
+footer {
+
+    background-color: blueviolet;
+    min-height: 300px;
+
+}
