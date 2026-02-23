@@ -1,0 +1,89 @@
+* {
+
+    outline: 2px solid magenta;
+}
+
+:root {
+
+    font-size: 18pt;
+}
+
+main {
+
+    width: 60vw;
+    margin-top: 220px;
+    background-color: cornsilk;
+    position: relative;
+}
+
+main div {
+
+    position: relative;
+
+    background-color: bisque;
+    min-height: 200px;
+}
+
+.theguy {
+
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    max-width: 100px;
+}
+
+.football {
+
+    position: absolute;
+    right: 70px;
+    top: 5px;
+    max-width: 30px;
+
+}
+
+.chat {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 100px;
+    max-height: 100px;
+    z-index: 2;
+}
+
+header {
+
+    background-color: burlywood;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1;
+
+}
+
+.diagram {
+
+    width: 40%;
+    position: sticky;
+    top: 220px;
+    left: 0px;
+    align-self: flex-start;
+    order: 2;
+}
+
+main > div:nth-of-type(1) div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main div:nth-of-type(1) div {
+
+    width: 57%;
+    order: 1;
+}

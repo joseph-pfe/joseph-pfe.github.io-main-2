@@ -1,0 +1,10 @@
+* {
+
+    outline: 3px solid magenta;
+}
+
+body > .one {
+
+    width: 200px;
+    height: 100px;
+}
