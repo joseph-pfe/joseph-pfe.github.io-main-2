@@ -1,9 +1,95 @@
-* {
-
-    outline: 3px solid magenta;
+body {
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
-body > .one {
+.poster {
+    width: 750px;
+    height: 950px;
+    background-color: #c4b396;
+    position: relative;
+}
 
+.char-one {
+    position: absolute;
+    left: 40px;
+    top: -60px;
+    font-family: "Impact", sans-serif;
+    font-size: 1000px;
+    color: #1d1d1b;
+    line-height: 1;
+    z-index: 1;
+}
+
+.p-block {
+    position: absolute;
+    right: -25px;
+    top: 320px;
+    transform: rotate(-45deg);
+    z-index: 3;
+}
+
+.char-p {
+    font-family: "Arial Black", sans-serif;
+    font-size: 500px;
+    line-height: 0.8;
+    color: #1d1d1b;
+}
+
+.roun-text {
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 55px;
+    color: #c4b396;
+    transform: rotate(45deg);
+    letter-spacing: -2px;
+}
+
+.char-circle {
+    position: absolute;
+    left: 375px;
+    top: 555px;
+    font-family: Arial, sans-serif;
+    font-size: 140px;
+    font-weight: 900;
+    color:  #e3e3e1;
+    z-index: 2;
+}
+
+.author {
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    z-index: 4;
+}
+
+.el {
+    font-family: "Arial Black", sans-serif;
+    font-size: 80px;
+    line-height: 0.8;
+}
+
+.lissitzky {
+    font-family: "Arial Black", sans-serif;
+    font-size: 22px;
+    transform: rotate(15deg) translate(110px, -35px);
+    letter-spacing: 2px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 107px;
+    left: 385px;
+    font-family: "Times New Roman", serif;
     font-size: 24px;
+    font-weight: bold;
+    color: #1d1d1b;
+    z-index: 4;
 }
