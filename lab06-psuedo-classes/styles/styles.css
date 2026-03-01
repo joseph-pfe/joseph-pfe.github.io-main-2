@@ -1,132 +1,117 @@
 :root {
-
-    font-size: 18pt;
+    font-size: 18px;
 }
-
-* {
-
-    outline: 2px solid magenta;
-}
-
 
 body {
-
     margin: 0;
+    font-family: Georgia, serif;
+    background-color: #ebebeb;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* i will remove this later */
-}
-
-header, nav, main, footer {
-
 }
 
 header {
-
-    background-color: blueviolet;
-    height: 200px;
+    background-color: #5348a4;
+    color: white;
+    height: 180px;
     font-size: 3rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 nav {
-
-    background-color: rgb(255, 251, 0);
-    height: 100px;
+    background-color: #ddd3cc;
+    height: 90px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-
+    gap: 15px;
 }
 
 nav a {
-
-    display: inline-block;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 2px;
-    text-decoration: color purple; 
-}
-
-nav a:link {
-
-    color: black;
-
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    color: #4a2c2a;
 }
 
 nav a:hover {
-
-        background-color: aliceblue;
-        color: darkmagenta;
-        transform: rotate(10deg) scale(1.1);
-
+    background-color: #a44848;
+    color: white;
+    transform: scale(1.1);
 }
 
 nav a:focus {
-
-        background-color: rgb(0, 136, 255);
-        color: rgb(255, 0, 255);
-        transform: scale(2);
-
+    outline: 3px solid #e98074;
 }
 
-
 main {
-
-    background-color: rgb(43, 134, 226);
-    min-height: 500px;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-
+    gap: 20px;
+    padding: 20px;
 }
 
 aside {
-
-    background-color: rgb(125, 125, 255);
-    width: 400px;
-    padding: 15px;
+    background-color: #a44848;
+    width: 250px;
+    padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+aside h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
 aside a {
-
-    color: rgb(214, 219, 223);
+    color: #f4efe6;
     text-decoration: none;
-
 }
 
 aside a:hover {
-
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    
+    color: #ffd670;
+    padding-left: 10px;
 }
 
 article {
-
-    background-color: rgb(43, 226, 76);
-    flex-grow: 4;
-
+    flex: 1;
+    display: flex;
+    gap: 20px;
 }
 
-article:hover {
-    background-color: greenyellow;
+.card {
+    background-color: white;
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 10px 0 5px 0;
+    color: #8b5e3c;
+}
+
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 footer {
-
-    background-color: blueviolet;
-    min-height: 300px;
-
+    background-color: #ddd3cc;
+    color: #4a2c2a;
+    padding: 30px;
+    text-align: center;
 }
